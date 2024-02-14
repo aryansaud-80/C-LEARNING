@@ -1,29 +1,26 @@
 // WAP to swap two numbers using a bitwise operator
 
-#include<stdio.h>
+#include <stdio.h>
 
-void swap(int *a, int* b);
 
-int main() {
-    int x , y;
+
+int main()
+{
+    int x, y;
     printf("Enter x: ");
-    scanf("%d",&x);
+    scanf("%d", &x);
 
     printf("Enter y: ");
-    scanf("%d",&y);
+    scanf("%d", &y);
 
-    printf("Before swapping: x= %d and y= %d\n",x,y);
+    printf("Before swapping: x= %d and y= %d\n", x, y);
 
-    swap(&x,&y);
-    printf("After swapping: x=%d and y=%d\n",x,y);
+    x = x ^ y;
+    y = x ^ y;
+    x = x ^ y;
+    
+    printf("After swapping: x=%d and y=%d\n", x, y);
 
     return 0;
-
-
 }
 
-void swap(int *a, int *b) {
-    *a = *a ^ *b;
-    *b = *a ^ *b;
-    *a = *a ^ *b;
-}

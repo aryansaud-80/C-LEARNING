@@ -25,6 +25,7 @@ int main() {
     else if (a==b && b==c) {
         printf("All number are equal");
     }
+   
 
     return 0;
 }

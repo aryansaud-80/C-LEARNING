@@ -11,7 +11,7 @@ int main() {
     scanf("%f",&breadth);
 
     area = length*breadth;
-    printf("The area of rectangle is %f",area);
+    printf("The area of rectangle is %f\n",area);
 
     perimeter = 2*(length+breadth);
     printf("The perimeter of rectangle %f",perimeter);

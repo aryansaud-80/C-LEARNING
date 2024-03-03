@@ -1,9 +1,9 @@
-// Calulate  and display the sum of odd natural numbers upto n terms
+    // Calulate  and display the sum of odd natural numbers upto n terms
 
-#include <stdio.h>
+    #include <stdio.h>
 
-int main()
-{
+    int main()
+    {
     int n, sum = 0;
     printf("Enter number: ");
     scanf("%d", &n);
@@ -18,4 +18,4 @@ int main()
     }
     printf("%d", sum);
     return 0;
-}
+    }

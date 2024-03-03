@@ -12,4 +12,5 @@ int main() {
         sum=sum+rem;
     }
     printf("%d",sum);
+    return 0;
 }

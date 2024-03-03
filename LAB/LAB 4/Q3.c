@@ -9,7 +9,7 @@ int main() {
 
     for(int i=1; i<=10; i++){
         table = n*i;
-        printf("%d\n",table);
+        printf("%d*%d=%d\n",n,i,table);
     }
 
     return 0;
